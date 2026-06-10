@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Restaurante Chinês",
+    "slug": "restaurante-chines",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C0392B"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.restaurantechines.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#C0392B"
+      },
+      "package": "com.restaurantechines.app"
+    },
+    "scheme": "restaurante-chines",
+    "plugins": ["expo-router"]
+  }
+}
